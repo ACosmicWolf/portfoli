@@ -93,7 +93,7 @@ const ProjectCard = ({
       <CardContent>
         <Image
           src={backgroundImage as string}
-          alt=""
+          alt="Loading..."
           fill
           style={{
             position: "absolute",
