@@ -33,8 +33,6 @@ export default function Projects() {
         <ProjectCard
           title="FlapChat"
           description=""
-          // tags={[<IconNextJS />, <IconFirebase />, <IconTailwindCSS />]}
-          // link="https://flapchat.vercel.app"
           backgroundImage={penguinbg}
           key={Math.random()}
         />
