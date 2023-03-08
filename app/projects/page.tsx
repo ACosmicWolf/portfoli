@@ -17,7 +17,11 @@ export default function Projects() {
         <ProjectCard
           title="Mehta Udyog"
           description="A stock and salary management system created using NextJS and Firebase. It’s my first real NextJS project so it’s not very good but I have learned a lot with this Project. This project’s main goal is to to calculate the salaries based on the items made and painted by workers and painters. This project also keeps tracks of the stock, the items made by workers, the items painted by painters and the sales done. It also generates pdfs based on this data. This project is specially made for a furniture store in my area and is used by the client and makes his work easier."
-          tags={[<IconNextJS />, <IconFirebase />, <IconTailwindCSS />]}
+          tags={[
+            <IconNextJS key={Math.random()} />,
+            <IconFirebase key={Math.random()} />,
+            <IconTailwindCSS key={Math.random()} />,
+          ]}
           //   link="https://google.com"
           backgroundImage={shopbg}
           key={Math.random()}
@@ -25,7 +29,11 @@ export default function Projects() {
         <ProjectCard
           title="Portfolio"
           description=""
-          tags={[<IconNextJS />, <IconFirebase />, <IconTailwindCSS />]}
+          tags={[
+            <IconNextJS key={Math.random()} />,
+            <IconFirebase key={Math.random()} />,
+            <IconTailwindCSS key={Math.random()} />,
+          ]}
           link="https://acosmicwolf.me"
           backgroundImage={portfoliobg}
           key={Math.random()}
