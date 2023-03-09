@@ -89,23 +89,9 @@ const ProjectCard = ({
   backgroundImage,
 }: Project) => {
   return (
-    <Card>
+    <Card className="card">
       <CardContent>
-        <Image
-          src={backgroundImage as string}
-          alt="Loading..."
-          fill
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            zIndex: -1,
-            backgroundSize: "cover",
-            overflow: "hidden",
-            objectFit: "cover",
-            filter: "blur(5px)",
-          }}
-        />
+        <StyledImage src={backgroundImage as string} alt="Loading..." fill />
         <ProjectTitle>{title}</ProjectTitle>
         <ProjectDescription>{description}</ProjectDescription>
         <ProjectLink href={link} target="_blank">
@@ -121,6 +107,24 @@ const ProjectCard = ({
     </Card>
   );
 };
+
+const StyledImage = styled(Image)`
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-size: cover;
+  overflow: hidden;
+  object-fit: cover;
+  filter: blur(5px);
+  opacity: 0.5;
+
+  transition: all 0.5s ease;
+
+  .card:hover & {
+    transform: scale(1.1);
+  }
+`;
 
 const Card = styled.div`
   width: 400px;

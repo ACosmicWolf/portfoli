@@ -18,8 +18,12 @@ export default function Navbar() {
         <IconHamburgerMenu />
       </button>
       <NavbarMenu open={isOpen}>
-        <Link href="/">Home</Link>
-        <Link href="/projects">Projects</Link>
+        <Link className="interactable" href="/">
+          Home
+        </Link>
+        <Link className="interactable" href="/projects">
+          Projects
+        </Link>
       </NavbarMenu>
     </NavbarWrapper>
   );
