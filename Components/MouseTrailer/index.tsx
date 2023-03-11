@@ -46,4 +46,9 @@ const Trailer = styled.div`
   *:hover & {
     opacity: 1;
   }
+
+  /* Small Screen */
+  @media (max-width: 767px) {
+    display: none;
+  }
 `;
