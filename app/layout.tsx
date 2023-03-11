@@ -1,6 +1,8 @@
 import Navbar from "@/Components/Navbar";
 import "./globals.css";
 
+import { Analytics } from "@vercel/analytics/react";
+
 import MouseTrailer from "@/Components/MouseTrailer";
 
 export const metadata = {
@@ -19,6 +21,7 @@ export default function RootLayout({
         <Navbar />
         <MouseTrailer />
         {children}
+        <Analytics />
       </body>
     </html>
   );
