@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import styled from "styled-components";
+import styled, { keyframes, css } from "styled-components";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,6 +33,26 @@ interface NavbarProps {
   open: boolean;
 }
 
+const dropdownKeyframes = keyframes`
+  from {
+    top: -200px;
+  }
+
+  to {
+    top: 60px;
+  }
+`;
+
+const menuremoveKeyframes = keyframes`
+  from {
+    top: 60px;
+  }
+
+  to {
+    top: -200px;
+  }
+`;
+
 const NavbarMenu = styled.div<NavbarProps>`
   display: flex;
   justify-content: space-between;
@@ -56,14 +76,32 @@ const NavbarMenu = styled.div<NavbarProps>`
 
   /* Small Screen */
   @media (max-width: 767px) {
-    ${(props) => (props.open ? "display: flex;" : "display: none;")}
+    display: flex;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: -200px;
     left: 0;
-    background: #242424;
+    background-image: radial-gradient(
+      circle at center,
+      #4b4b4b 0,
+      #4b4b4b 0.4px,
+      #161616 1px,
+      #161616 100%
+    );
+    background-repeat: repeat;
+    background-size: 30px 30px;
+    border-bottom: 1px solid #242424;
     width: 100%;
-    transition: all 0.2s ease-in-out;
+    transition: all 1s ease-in-out;
+
+    animation: ${(props) =>
+      props.open
+        ? css`
+            ${dropdownKeyframes} 0.2s forwards ease
+          `
+        : css`
+            ${menuremoveKeyframes} 0.2s forwards ease
+          `};
 
     & > a {
       padding: 1rem 0;
@@ -77,14 +115,14 @@ const NavbarWrapper = styled.div<NavbarProps>`
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  height: 60px;
+  height: 61px;
   border-bottom: 1px solid #242424;
 
   & > a {
     font-size: 1.5rem;
     font-weight: 700;
     cursor: pointer;
-    color: #9d9d9d;
+    color: white;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 
