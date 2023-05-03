@@ -40,7 +40,7 @@ export default function Projects() {
         />
         <ProjectCard
           title="FlapChat"
-          description=""
+          description="WORK IN PROGRESS!!!"
           backgroundImage={penguinbg}
           key={Math.random()}
         />
