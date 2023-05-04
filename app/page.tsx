@@ -27,31 +27,23 @@ export default function Home() {
 
       <AboutWrapper>
         <p>
-          I am a 15 year old student from India. I am currently in 10th grade
-          and I am a self taught programmer.
+          I'm a 15-year-old student from India, currently in 10th grade, and I'm a self-taught programmer.
         </p>
         <br />
         <p>
-          I started programming when I was 13 years old. I started with Python
-          but after that I became very interested in web dev and started
-          learning HTML, CSS and JS. After learning the basics of JS I learned
-          about frameworks and found out about React and Next.js.
+          I started programming when I was 13 years old with Python, but then I became very interested in web development and started learning HTML, CSS, and JS. After mastering the basics of JS, I learned about frameworks and discovered React and Next.js.
         </p>
         <p>
-          I have been using NextJS, firebase and tailwindcss for my projects and
-          I have been learning more about them.
+          I've been using NextJS, Firebase, and Tailwind CSS for my projects, and I'm continuously learning more about them.
         </p>
         <p>
-          In addition to web dev, I also enjoy automating things and making my
-          life easier. I also like to learn more about how computers work under
-          the hood.
+          In addition to web development, I enjoy automating tasks and making my life easier. I'm also keen on learning more about how computers work under the hood.
         </p>
         <br />
-        <p>I am also active in discord and can be contacted there.</p>
+        <p>I'm active on Discord, and you can contact me there.</p>
         <br />
         <p>
-          Aside from programming, I also like playing video games and watching
-          anime in my free time.
+          Apart from programming, I like playing video games and watching anime in my free time.
         </p>
       </AboutWrapper>
 
