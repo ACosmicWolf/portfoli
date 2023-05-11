@@ -7,7 +7,7 @@
 
 <main>
   <img
-    src={"src/assets/profileimage.webp"}
+    src={"profileimage.webp"}
     alt="Profile"
     width="100px"
     height="100px"
