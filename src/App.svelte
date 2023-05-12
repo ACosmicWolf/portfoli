@@ -117,6 +117,9 @@
       on this data. This project is specially made for a furniture store in my
       area and is used by the client and makes his work easier.
     </p>
+    <a href="https://github.com/ACosmicWolf/shopwebsite-ts" target="_blank"
+      >Visit</a
+    >
   </div>
 </div>
 
@@ -185,7 +188,7 @@
   .links > table > tr > td > a {
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: white !important;
   }
 
   .links > table > tr > td > a:hover {
@@ -215,6 +218,11 @@
     border-radius: 10px;
     border: 1px solid rgb(36, 36, 36);
     margin-bottom: 1rem;
+    transition: border 0.3s ease;
+  }
+
+  .project:hover {
+    border: 1px solid white;
   }
 
   .project > h2 {
