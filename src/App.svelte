@@ -185,13 +185,13 @@
     color: #808080;
   }
 
-  .links > table > tr > td > a {
+  .links table tr a {
     text-decoration: none;
     font-weight: bold;
     color: white !important;
   }
 
-  .links > table > tr > td > a:hover {
+  .links table tr a:hover {
     text-decoration: underline;
   }
 
