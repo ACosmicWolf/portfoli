@@ -102,6 +102,10 @@
       This is my portfolio website, made with Svelte. It's a simple website to
       showcase my skills and projects. It's also my first Svelte project.
     </p>
+    <a
+      href="https://github.com/ACosmicWolf/ACosmicWolf.github.io"
+      target="_blank">Github</a
+    >
     <a href="https://acosmicwolf.me" target="_blank">Visit</a>
   </div>
 
@@ -118,7 +122,7 @@
       area and is used by the client and makes his work easier.
     </p>
     <a href="https://github.com/ACosmicWolf/shopwebsite-ts" target="_blank"
-      >Visit</a
+      >Github</a
     >
   </div>
 </div>
