@@ -110,6 +110,17 @@
   </div>
 
   <div class="project">
+    <h2>NextBase</h2>
+    <p>
+      A Social Media Website created using NextJS and Firebase. It's a simple
+      social media website where you can create posts, view other people's
+      posts, view users, and follow other users.
+    </p>
+    <a href="https://github.com/ACosmicWolf/nextbase" target="_blank">Github</a>
+    <a href="https://nextbase.acosmicwolf.me" target="_blank">Visit</a>
+  </div>
+
+  <div class="project">
     <h2>Mehta Udyog</h2>
     <p>
       A stock and salary management system created using NextJS and Firebase.
