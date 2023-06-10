@@ -3,6 +3,35 @@
   import Icons from "./lib/Icons.svelte";
 </script>
 
+<head>
+  <!-- Meta Tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Arsh Mehta's (ACosmicWolf) Portfolio Website. I'm a 15-year-old student from India, currently in 10th grade, and I'm a self-taught programmer."
+  />
+  <meta name="author" content="Arsh Mehta" />
+  <meta name="keywords" content="Arsh Mehta, ACosmicWolf, Arsh, Mehta" />
+  <meta name="theme-color" content="#000000" />
+
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="ACosmicWolf" />
+  <meta
+    property="og:description"
+    content="Arsh Mehta's (ACosmicWolf) Portfolio Website. I'm a 15-year-old student from India, currently in 10th grade, and I'm a self-taught programmer."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://acosmicwolf.me" />
+  <meta
+    property="og:image"
+    content="https://acosmicwolf.me/profileimage.webp"
+  />
+
+  <!-- Title -->
+  <title>ACosmicWolf</title>
+</head>
+
 <Navbar />
 
 <main>
