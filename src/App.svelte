@@ -115,6 +115,8 @@
       A Social Media Website created using NextJS and Firebase. It's a simple
       social media website where you can create posts, view other people's
       posts, view users, and follow other users.
+      <br />
+      This project is still in development.
     </p>
     <a href="https://github.com/ACosmicWolf/nextbase" target="_blank">Github</a>
     <a href="https://nextbase.acosmicwolf.me" target="_blank">Visit</a>
