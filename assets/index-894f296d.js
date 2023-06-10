@@ -41,7 +41,9 @@
   <div class="project svelte-10ej2yd"><h2 class="svelte-10ej2yd">NextBase</h2> 
     <p class="svelte-10ej2yd">A Social Media Website created using NextJS and Firebase. It&#39;s a simple
       social media website where you can create posts, view other people&#39;s
-      posts, view users, and follow other users.</p> 
+      posts, view users, and follow other users.
+      <br/>
+      This project is still in development.</p> 
     <a href="https://github.com/ACosmicWolf/nextbase" target="_blank" class="svelte-10ej2yd">Github</a> 
     <a href="https://nextbase.acosmicwolf.me" target="_blank" class="svelte-10ej2yd">Visit</a></div> 
 
