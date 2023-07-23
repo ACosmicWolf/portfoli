@@ -94,10 +94,26 @@
       </td>
     </tr>
     <tr>
+      <td> Instagram </td>
+      <td>
+        <a href="https://instagram.com/arshmehta.009" target="_blank"
+          >arshmehta.009</a
+        ></td
+      >
+    </tr>
+    <tr>
       <td> Discord </td>
       <td>
         <a href="https://discord.com/users/864575191915823116" target="_blank"
-          >ACosmicWolf#4023</a
+          >acosmicwolf</a
+        ></td
+      >
+    </tr>
+    <tr>
+      <td> Anime List </td>
+      <td>
+        <a href="https://anilist.co/user/ACosmicWolf/animelist" target="_blank"
+          >ACosmicWolf</a
         ></td
       >
     </tr>
